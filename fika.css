@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: coral;
+}
+
+h1.a {
+    text-shadow: 2px 2px greenyellow;
+    text-align: center;
+    border: 3px solid darkorange;
+    padding: 50px 0;
+}
+
+h1.b {
+    text-align: center;
+    text-shadow: 2px 2px lightcoral;
+}
+
+div.a {
+    text-align: center;
+    text-shadow: 1px 1px yellow;
+    border: 3px solid darkorange;
+    padding: 200px 0;
+}
+
+table, th, td {
+    border: 2px solid;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
