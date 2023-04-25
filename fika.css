@@ -10,16 +10,38 @@ h1.a {
     padding: 50px 0;
 }
 
+
 h1.b {
     text-align: center;
     text-shadow: 2px 2px lightcoral;
+}
+
+div.back {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.a {
     text-align: center;
     text-shadow: 1px 1px yellow;
     border: 3px solid darkorange;
-    padding: 200px 0;
+    padding: 150px 0;
+}
+
+div.gifff::after {
+    content: url(albert.gif);
+}
+
+div.giff::before {
+    content: url(computer.gif);
+    align-content: center;
+    
+}
+
+p::first-letter {
+    color: chartreuse;
+    font-size: xx-large;
 }
 
 table, th, td {
@@ -29,4 +51,19 @@ table, th, td {
 
 table {
     width: 100%;
+}
+
+table.so:hover {
+    background-color: beige;
+    color: black;
+}
+
+.diva:hover {
+    background-color: floralwhite;
+    color: black;
+    text-align: center;
+}
+
+.divo {
+    text-align: center;
 }
